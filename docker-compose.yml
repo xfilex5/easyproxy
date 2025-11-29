@@ -1,7 +1,7 @@
 services:  
   EasyProxy:
     build: https://github.com/nzo66/EasyProxy.git#main
-    container_name: EasyProxy
+    container_name: easyproxy
     restart: unless-stopped
     ports:
       - '7860:7860'
